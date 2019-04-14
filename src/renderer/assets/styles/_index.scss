@@ -1,0 +1,16 @@
+.search-condition{
+    background: #FFFFFF;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
+    padding: 20px 30px;
+    margin: 0 0 20px;
+    font-size: 12px;
+    color: rgba(144,146,167,1);
+    .el-form--inline{
+        .el-form-item{
+            margin-bottom: 0;
+        }
+        .el-button{
+            margin: 5px;
+        }
+    }
+}

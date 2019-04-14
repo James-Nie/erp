@@ -1,0 +1,155 @@
+$offset: 15px;
+$shadow: 0px 0px 10px #333333;
+
+.container-fluid {
+  padding-right: $offset;
+  padding-left: $offset;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box-shadow {
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+.el-card {
+  height: 100%;
+  border-radius: 0;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: #868e96;
+}
+
+.badge-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
+
+/*浮动*/
+.fl {
+  float: left !important;
+}
+
+.fr {
+  float: right !important;
+}
+
+.clearfix {
+  zoom: 1;
+  &:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; 
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;  
+}
+
+/*对话框*/
+.el-dialog {
+  border-radius: 0;
+}
+
+.el-dialog__header {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.el-dialog__body {
+  padding: 20px;
+}
+
+.el-dialog__title {
+  font-size: 14px;
+}
+
+.table-wrapper {
+  height: 523px;
+}
+
+.auxiliary-table {
+  width: 100%;
+//height: 235px;
+}
+
+.w192 {
+  width: 192px !important;
+}
+.w160 {
+  width: 160px !important;  
+}
+
+.w100 {
+  width: 100px !important;  
+}
+
+.m15 {
+  margin-right: -$offset;
+  margin-left: -$offset;
+}
+
+.mgl10 {
+  margin-left: 10px;
+}
+
+.mgl15 {
+  margin-left: $offset;
+}
+
+.mgb15 {
+  margin-bottom: $offset;
+}
+
+.mgl20 {
+  margin-bottom: 20px;
+}
+
+.mgb30 {
+  margin-bottom: 30px !important;
+}
+
+.toolbar {
+  padding: $offset 0;
+}
+
+.panel-heading {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-left: 6px solid #4886ff;
+}
+
+/* 按钮 */
+.circle-btn {
+  width: 88px;
+  border-radius: 36px;
+}

@@ -1,0 +1,86 @@
+.wrapper .el-button {
+  background: #3B87FF;
+  border-radius: 0;
+}
+.el-radio-button__inner{
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 0 !important;
+}
+.el-button, .el-textarea__inner{
+    padding: 8px 10px;
+    border-radius: 0 !important;
+    font-size: 12px;
+    min-width: 90px;
+}
+.el-dropdown-menu__item{
+    line-height: 30px;
+    font-size: 12px;
+}
+.el-dropdown-menu{
+    padding: 3px 0;
+    margin: 0;
+    min-width: 80px;
+}
+.el-card__header{
+    font-size: 14px;
+}
+.panel-heading{
+    font-size: 14px;
+}
+
+//table
+.el-table{
+    background: #FFFFFF;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
+    padding: 20px;
+}
+.el-table thead tr {
+    font-size: 12px;
+}
+.el-table th{
+    background-color: #F1F1F1;
+}
+
+//input
+.el-input__inner{
+    height: 30px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+// menu
+.el-main{
+    .el-submenu__title{
+        color: #9999AA;
+    }
+    .el-submenu.is-active{
+        background: #F1F1F1;
+    }
+    .el-submenu.is-active .el-submenu__title{
+        color: #3B87FF;
+    }
+    .el-submenu.is-active .el-menu{
+        background: #F1F1F1;  
+    }
+    .el-menu-item.is-active{
+        background:#3B87FF;
+        color: #FFFFFF;
+    }
+    .el-menu-item{
+        color: #9999AA;
+    }
+}
+
+.el-input-group__append, .el-input-group__prepend{
+  border-radius: 0px;
+  padding: 0 5px;
+}
+
+.el-form-item__label{
+  padding-right: 10px;
+  font-size: 12px;
+}
+.el-dialog__header {
+  padding: 13px 20px;
+}
